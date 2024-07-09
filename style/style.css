@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font family */
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header  section stylings*/
+
+.header-section{
+    width: 1200px;
+    height: 560px;
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+   align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.header-section .text-containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.text-containers h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.text-containers p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 25px;
+}
+
+.text-containers a{
+    text-decoration: none;
+}
+
+.text-containers .hrader-btn{
+   
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 10px 15px ;
+    display: inline-block;
+}
+
+.text-containers .hrader-btn a{
+    color: white;
+}
+
+/* main stylings */
+
+.main-contant{
+    width: 1100px;
+    height: 1200px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 60px auto;
+    padding: 80px 97px;
+}
+
+.main-contant h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-contant p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+
+.first-section{
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.first-contant-box{
+    width: 900px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+}
+
+.first-contant-box .img-box img{
+    max-width: 100%;
+    width: 220px;
+}
+
+.child-box h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+} 
+
+.child-box p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+/* second contant styling */
+
+.hrader-btn{
+    padding: 10px 15px ;
+    display: inline-block;
+    color: black;
+}
+
+.second-section{
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.second-contant-box-2{
+    width: 900px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+    gap: 30px;
+}
+
+  .second-contant-box-2 .img-box-1 img{
+    max-width: 100%;
+    width: 250px;
+  }
+
+  .second-contant-box h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .second-contant-box p{
+  text-align: left;
+   text-align-last:left ;
+  margin-bottom: 20px;
+  }
+
+  /* third section stylins */
+
+  .third-section{
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .third-contant-box{
+    width: 900px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
+  }
+
+  .third-text-box h5 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .third-text-box p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+/* 
+  .third-text-box .hrader-btn{
+    margin-top: 0;
+  } */
+
+  
+
+  .
+
+
+
