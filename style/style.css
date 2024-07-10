@@ -230,18 +230,17 @@ body{
   .Inspiration{
     margin-top: 60px;
     text-align: center;
-
-
   }
 
   .Inspiration .embed-video-section{
     width: 800px;
-    height: 450px;
+    height: 455px;
     border: 1px solid red;
     margin: 0 auto;
     margin-top: 40px;
     border-radius: 10px;
-
+    padding: 10px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
   }
 
   .Inspiration h6{
